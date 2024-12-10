@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registry Form</title>
+  <link rel="stylesheet" href="css/resgistry.css">
+</head>
+<body>
+  <div class="container">
+    <div class="form-card">
+      <h2>Registry</h2>
+      <form>
+        <input type="text" placeholder="Nama Lengkap" required>
+        <input type="text" placeholder="NPM" required>
+        <input type="date" placeholder="Tanggal Lahir" required>
+        <input type="email" placeholder="E-mail" required>
+        <select required>
+          <option value="" disabled selected>Jurusan</option>
+          <option value="informatika">Teknik Informatika</option>
+          <option value="teknik_perminyakan">Teknik Perminyakan</option>
+          <option value="pgsd">PGSD</option>
+          <option value="hukum">Hukum</option>
+        </select>
+        <input type="tel" placeholder="No - Handphone" required>
+        <textarea placeholder="Deskripsi diri anda"></textarea>
+        <button class="submit" type="submit"><a href="login.html">Register</a></button>
+      </form>
+      <p class="login-text">Sudah memiliki akun? <a href="login.html">Login</a></p>
+    </div>
+  </div>
+</body>
+</html>

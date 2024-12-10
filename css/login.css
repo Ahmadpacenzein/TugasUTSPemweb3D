@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #A7D477;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #F5F5F5; /* Putih abu */
+    width: 350px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-container h1 {
+    color: #333333; /* Warna teks gelap */
+    margin-bottom: 20px;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.login-container .login-button {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: #82C784; /* Hijau muda */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-container .login-button:hover {
+    background-color: #519657; /* Hijau tua */
+}
+
+.login-container p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666666; /* Abu terang */
+}
+
+.login-container p a {
+    color: #4A90E2; /* Biru link */
+    text-decoration: none;
+}
+
+.login-container p a:hover {
+    text-decoration: underline;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    display: none;
+}

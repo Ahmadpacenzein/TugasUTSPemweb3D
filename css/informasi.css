@@ -1,0 +1,223 @@
+/* General Reset */
+body, h1, h2, h3, p, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+/* Header Styles */
+.main-header {
+background-position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6BC75B;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .logo span {
+    font-family: 'Goblin One', cursive;
+    font-size: 1.5em;
+  }
+  
+  .logo .highlight {
+    color: #020000;
+    font-weight: bold;
+  }
+  
+  .horizontal-nav a {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+  }
+  
+  .horizontal-nav .login-btn {
+    background-color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 25px;
+    color: #000000;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid #92929200;
+    transition: all 0.3s ease;
+  }
+  
+  .horizontal-nav .login-btn:hover {
+    background-color: #82d477;
+    color: white;
+    transform: scale(1.1);
+  }
+  
+  /* Hamburger Menu Styles */
+  .hamburger-menu {
+    display: none; /* Hidden by default for larger screens */
+  }
+  
+  .hamburger-icon {
+    font-size: 1.5em;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .hamburger-content {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #6bc75b;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .hamburger-content a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 5px 0;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .horizontal-nav {
+      display: none;
+    }
+    .hamburger-menu {
+      display: block;
+    }
+  }
+  
+
+/* isi
+/* Informasi Styles */
+
+/* Class Selector */
+.info-container {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 30px;
+  background-color: #f4f9f4;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Descendant Selector */
+.info-card .info-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.info-card .info-content {
+  padding: 20px;
+  font-family: 'Fredoka', sans-serif;
+  color: #333;
+}
+
+.info-card .info-content h3 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #6BC75B;
+  text-align: center;
+}
+
+.info-card .info-content p {
+  line-height: 1.8;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+/* General Sibling Selector */
+.info-content h3 ~ p {
+  font-style: italic; /* Semua paragraf setelah <h3> diberi gaya miring */
+}
+
+
+
+
+
+  /*Footer
+
+  /* Footer Styles */
+.footer {
+    background-color: #8eaa71;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+  }
+  
+  .footer-section h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .categories a {
+    display: inline-block;
+    background: #dee8f350;
+    color: #fff;
+    margin: 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 3px;
+  }
+  
+  .categories a:hover {
+    background: #1abc9c;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #7f8c8d;
+    padding-top: 10px;
+    font-size: 0.8em;
+  }
+  
+  .social-icons a,
+  .payment-icons i {
+    font-size: 1.5em;
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover,
+  .payment-icons i:hover {
+    color: #1abc9c;
+  }
+  
